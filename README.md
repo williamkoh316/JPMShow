@@ -83,9 +83,10 @@ Only one booking per phone# is allowed per show.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 How to run JPMshow application:
-1. Open the command prompt
-2. cd to the < application jar file folder >
-3. run "java -jar jpmshow-0.0.1-SNAPSHOT.jar" 
+1. mvn clean and install the project
+2. Open the command prompt
+3. cd to the < application jar file folder e.g. inside the target folder >
+4. run "java -jar jpmshow-0.0.1-SNAPSHOT.jar" 
 
 How to access to H2 database console:
 1. open the internet browser
