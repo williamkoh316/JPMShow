@@ -67,8 +67,6 @@ book  <Show Number> <Phone#> <Comma separated list of seats>
 CLI Input Example: JPMShow (buyer)>book 123 88888888 A1 
 CLI Output: Show number: 123 Ticket number: 1 Seat number: A1
 
-(To book a ticket. This must generate a unique ticket # and display)
-
 3. Cancel: To cancel ticket
 cancel  <Ticket#>  <Phone#>
 CLI Input Example: JPMShow (buyer)>cancel 1 88888888 
